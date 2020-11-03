@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title> HTML Calculator </title>
+
+    </head>
+    <body>
+        <div class="skull1">
+            <img src="skull1.png" 
+        </div>
+        <div class="skull2">
+            <img src="skull2.png" width="320" height="205"/>
+        </div>
+        <center><u><h1>Murilove's Calculator</h1></u></center>
+        <div align='center'>
+        <form name="calculator">
+            <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+            <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+            <input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+            <input type="button" value="+" onClick="document.calculator.ans.value+='+'"><br>
+            <input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+            <input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+            <input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+            <input type="button" value="-" onClick="document.calculator.ans.value+='-'"><br>
+            <input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+            <input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+            <input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+            <input type="button" value="x" onClick="document.calculator.ans.value+='*'"><br>
+            <input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+            <input type="button" value="÷" onClick="document.calculator.ans.value+='/'">
+            <input type="button" value="," onClick="document.calculator.ans.value+='.'">
+            <input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"><br>
+            <input type="reset" value="Reset"><br>
+            <input type="textfield" name="ans" value="" placeholder="Result">
+        </div>
+        </form>
+    </body>
+</html>
