@@ -5,6 +5,9 @@ body{
     background-position: center;
     background-size: cover;
 }
+u{
+   color: white;
+}
 h1{
     position: relative;
     color: white;
@@ -12,6 +15,10 @@ h1{
     font-family: 'Grenze Gotisch';
     font-size: 60px;
     border-radius: 5px;
+}
+
+h1:hover{
+   text-shadow: 0 0 4px #fff, 0 0 4px rgb(0, 255, 213);
 }
 input[type=button] {
     position: relative;
